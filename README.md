@@ -6,7 +6,10 @@ npm i
 ```bash
 npm run build
 ```
-browser: ng serve --open
+browser: 
+```bash
+ng serve --open
+```
 android: 
 ```bash
 ionic capacitor run android -l --external
