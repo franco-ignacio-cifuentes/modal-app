@@ -1,6 +1,8 @@
 # modal-app
 
+```bash
 npm i
+```
 ```bash
 npm run build
 ```
@@ -13,3 +15,7 @@ ionic capacitor run android -l --external
 ```bash 
 sdk.dir=android_sdk_location
 ```
+
+Expected behavior: the button with the star should move when we move the modal
+https://github.com/franco-ignacio-cifuentes/modal-app/assets/51925738/67c2d00d-78b1-40c0-9640-872030d71643
+
