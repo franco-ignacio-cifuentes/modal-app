@@ -6,7 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  
+  public modalBreakpoints: number[] = [0.5, 0.99];
+  public count = 0;
 
-  constructor() {}
+  increment() {
+    this.count++;
+  }
+
+  decrement() {
+    this.count--;
+  }
 
 }
