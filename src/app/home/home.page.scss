@@ -15,7 +15,18 @@ ion-button.star {
   position: absolute;
   right: 10px;
   bottom: 230px;
-  z-index: 100000;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+ion-button.top {
+  bottom: 230px;
+}
+
+ion-button.bottom {
+  bottom: 120px;
 }
 
 ion-modal {
