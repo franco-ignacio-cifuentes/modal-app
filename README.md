@@ -17,5 +17,5 @@ sdk.dir=android_sdk_location
 ```
 
 Expected behavior: the button with the star should move when we move the modal
-https://github.com/franco-ignacio-cifuentes/modal-app/assets/51925738/67c2d00d-78b1-40c0-9640-872030d71643
 
+<img src="https://github.com/franco-ignacio-cifuentes/modal-app/assets/51925738/ff9cc8f9-b2e8-4a02-9fca-c3430a4c6dc2" width="300px">
