@@ -11,25 +11,32 @@
   justify-content: space-between;
 }
 
-ion-button.star {
-  position: absolute;
-  right: 10px;
-  bottom: 230px;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+.star {  
+  margin: -50px 0 0 auto;
 }
 
-ion-button.top {
-  bottom: 230px;
+ion-modal::part(content) {
+  overflow: visible;
 }
+// ion-button.star {
+//   position: absolute;
+//   right: 10px;
+//   bottom: 230px;
+//   -webkit-transition: all 0.5s linear;
+//   -moz-transition: all 0.5s linear;
+//   -o-transition: all 0.5s linear;
+//   transition: all 0.5s linear;
+// }
 
-ion-button.bottom {
-  bottom: 120px;
-}
+// ion-button.top {
+//   bottom: 230px;
+// }
 
-ion-modal {
-	--height: 230px;
-	--max-height: 230px;
-}
+// ion-button.bottom {
+//   bottom: 120px;
+// }
+
+// ion-modal {
+// 	--height: 230px;
+// 	--max-height: 230px;
+// }
