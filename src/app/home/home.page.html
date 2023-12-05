@@ -13,21 +13,22 @@
       <ion-button (click)="increment()">+</ion-button>
     </div>
 
-    <ion-button class="star">
-      <ion-icon slot="icon-only" name="star"></ion-icon>
-    </ion-button>
+
 
     <ion-modal
       #modal
       trigger="open-modal"
       [isOpen]="true"
-      [initialBreakpoint]="modalBreakpoints[1]"
+      [initialBreakpoint]="modalBreakpoints[0]"
 			[breakpoints]="modalBreakpoints"
 			[backdropDismiss]="false"
 			[backdropBreakpoint]="modalBreakpoints[1]"
       (ionBreakpointDidChange)="ionBreakpointDidChange($event)"
     >
       <ng-template>
+        <ion-button class="star">
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-button>
         <ion-content class="ion-padding">
           <ion-list>
             <ion-item>
