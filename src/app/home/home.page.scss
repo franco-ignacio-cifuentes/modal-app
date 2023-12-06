@@ -1,35 +1,42 @@
 .background-content {
-  --background: #eef0c7;
-  p {
-    color: black;
+	--background: #eef0c7;
+	p {
+	  color: black;
+	}
   }
-}
-
-.counter__section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-ion-button.star {
-  position: absolute;
-  right: 10px;
-  bottom: 230px;
-  -webkit-transition: all 0.5s linear;
-  -moz-transition: all 0.5s linear;
-  -o-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-
-ion-button.top {
-  bottom: 230px;
-}
-
-ion-button.bottom {
-  bottom: 120px;
-}
-
-ion-modal {
-	--height: 230px;
-	--max-height: 230px;
-}
+  
+  .counter__section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  .star {  
+	margin: -50px 0 0 auto;
+  }
+  
+  ion-modal::part(content) {
+	overflow: visible;
+  }
+  // ion-button.star {
+  //   position: absolute;
+  //   right: 10px;
+  //   bottom: 230px;
+  //   -webkit-transition: all 0.5s linear;
+  //   -moz-transition: all 0.5s linear;
+  //   -o-transition: all 0.5s linear;
+  //   transition: all 0.5s linear;
+  // }
+  
+  // ion-button.top {
+  //   bottom: 230px;
+  // }
+  
+  // ion-button.bottom {
+  //   bottom: 120px;
+  // }
+  
+  // ion-modal {
+  // 	--height: 230px;
+  // 	--max-height: 230px;
+  // }
